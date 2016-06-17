@@ -1,0 +1,58 @@
+
+
+
+This page is just for reference and will be deleted before submission.
+
+
+
+Motivation
+Finding a good restaurant to try new cuisines or even for a fun night out can be a really hard decision to make; especially with all the new restaurants competing to acquire new customers. Using restaurant recommendation apps or systems is very useful but some important features are still missing. When using most of the existing restaurant recommendation systems, recommended restaurant almost never change when searching from the same location-usually your home. This can be a problem as the same users would want to find new restaurants when searching for a restaurant two consecutive days. In addition, users usually have to read a lot of reviews in order to decide whether they found a restaurant that meets their needs. Usually, just looking at the five-star rating is not enough.
+
+Objective
+There are multiple necessary features that are still very much needed in currently existing restaurant recommendation systems. The objective of creating our own restaurant recommendation system is to try and fill the gap by providing those missing features. This system should be able to recommend new restaurants to users that match their needs even if users ask for recommendation from the same location and preferences as a previous search; recommendations should be different. In addition, this system will categories and rank different features of restaurant using sentiment analysis of user reviews. This way, new users don’t have to read all the reviews. Instead, they can just check a visual summery of the features and their ranking for each restaurant.
+
+Expected Outcome
+When we finish developing this system, it should be able to provide restaurant recommendation to users. Users should be able to specify different kind of preferences when asking for a recommendation such as location, type, closing time…etc. Recommended systems should be updated if the user asks for recommendation two consecutive days; not showing the same recommendations. In addition, ranking of different ranking of each recommended restaurant should be provided depending on analyzing the customer reviews. For example, in addition to five-star ratings, a restaurant should also have a ranking of cleanliness, noise level, friendliness and other features users might have mentioned in the reviews.
+
+Project Domain
+This project is going to be a recommendation system. Namely, it will be specialized in recommending restaurants to users. In addition, the specific domain is involved in restaurants and food chains. 
+
+Data Collection
+Dataset Used:
+
+Collection Process:
+
+
+
+Tasks and Features
+
+
+Input/output
+Cognitive Services:
+
+NLP Processing:
+
+Information Extraction/Retrieval Technology:
+
+
+Implementation Specification
+Software Architecture:
+
+UML Models:
+
+Workflow:
+
+Existing Services:
+
+New Services/Features Implemented:
+
+
+Project Management
+Contribution of Each Member:
+
+Version Control/Screenshots:
+
+Concerns/Issues:
+
+Future Work:
+
