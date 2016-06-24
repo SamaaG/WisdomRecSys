@@ -4,9 +4,11 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.{SparkConf, SparkContext}
 import pipeline.PrepareJson.prepareJson
 import pipeline.WordCount.PerformWordCount
-import pipeline.NLPanalysis.nlpAnalysis
-
+import pipeline.NLPanalysis.{nlpAnalysis, returnLemma}
+import pipeline.TFIDF.performTFIDF
 import org.apache.log4j.{Level, Logger}
+import org.apache.spark.ml.feature.{NGram, StopWordsRemover, Tokenizer}
+import org.apache.spark.rdd.RDD
 
 
 /**
@@ -43,6 +45,18 @@ object InfoExtract {
 
     //perform NLP analysis on the file
     nlpAnalysis(readyFile)
+
+    //perform TF-IDF analysis of the file
+    //performTFIDF(readyFile, sc)
+
+    // Read the file into RDD[String](all rdd manipulations has to be serilizable
+    val input = sc.textFile(readyFile).map(line => {
+      //Getting Lemmatized Form of the word using CoreNLP
+      val lemma = returnLemma(line)
+      (0, lemma)
+    })
+
+    performTFIDF(readyFile, sc, spark, input)
 
 
   }

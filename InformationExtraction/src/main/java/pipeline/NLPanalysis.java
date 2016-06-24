@@ -8,6 +8,8 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
+import edu.stanford.nlp.simple.Document;
+import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreeCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
@@ -27,6 +29,23 @@ import java.util.Properties;
  * Created by Samaa on 6/24/2016.
  */
 public class NLPanalysis {
+
+    public static String returnLemma(String sentence) {
+
+        Document doc = new Document(sentence);
+        String lemma="";
+        for (Sentence sent : doc.sentences()) {  // Will iterate over two sentences
+
+            /**TODO List to String Not Working Fix it */
+            List<String> l=sent.lemmas();
+            for (int i = 0; i < l.size() ; i++) {
+                lemma+= l.get(i) +" ";
+            }
+            System.out.println(lemma);
+        }
+
+        return lemma;
+    }
 
     //reading text file into string
     static String readFile(String path, Charset encoding) throws IOException
