@@ -1,7 +1,10 @@
 package pipeline
 
 
-import org.apache.spark.{SparkContext, SparkConf}
+import java.io.File
+
+import org.apache.spark.sql.Row
+import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   * Created by Samaa on 6/24/2016.
@@ -10,13 +13,10 @@ import org.apache.spark.{SparkContext, SparkConf}
 
 object WordCount {
 
-  def PerformWordCount(filePath: String) {
+  def PerformWordCount(filePath: String,sc: SparkContext) {
 
     System.setProperty("hadoop.home.dir","C:\\winutils")
 
-    val sparkConf = new SparkConf().setAppName("SparkWordCount").setMaster("local[*]")
-
-    val sc=new SparkContext(sparkConf)
 
     val input=sc.textFile(filePath)
 
