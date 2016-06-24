@@ -2,56 +2,55 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import sun.misc.IOUtils;
 
 import java.io.*;
 import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Scanner;
 
 /**
  * Created by Samaa on 6/23/2016.
  */
+
+//This class extracts the text part of reviews from the json file in preparation for Info. Extraction
 public class PrepareJson {
-    static String readFile(String path, Charset encoding)
-            throws IOException
+
+    //This function reads a text file of json formatting and returns a JSONArray where each line in the text file is saved a JSONobject in the Array
+    static JSONArray readFileAsJsonArray(String path)
     {
-        byte[] encoded = Files.readAllBytes(Paths.get(path));
-        return new String(encoded, encoding);
+        JSONParser parser = new JSONParser();
+        JSONArray jObs = new JSONArray();
+
+        try {
+            File file = new File(path);
+            Scanner scanner = new Scanner(file);
+            while (scanner.hasNextLine()) {
+                String jobStr = scanner.nextLine();
+                jObs.add((JSONObject) parser.parse(jobStr));
+            }
+            scanner.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return jObs;
     }
+
 
     public static void main(String[] args) throws IOException, ParseException {
 
+        //each object in jLines is a single JSON object representing a user review
+        JSONArray jLines = readFileAsJsonArray("SampleDataset.txt");
 
+        PrintWriter out = new PrintWriter("Reviews.txt");
 
-        JSONParser parser = new JSONParser();
-
-        /*FileReader fileReader = new FileReader("SampleDataset.txt");
-        BufferedReader bufferedReader = new BufferedReader(fileReader);*/
-
-        String content = readFile("SampleDataset.txt", StandardCharsets.UTF_8);
-
-        Object obj_ = parser.parse(content);
-        JSONObject obj = (JSONObject) obj_;
-
-        List<String> results = new ArrayList<String>();
-
-        /*String line = bufferedReader.readLine();
-        while (line != null) {
-            results.add(line);
-            line = bufferedReader.readLine();
+        //extract the text from the reviews and create a new text file
+        for( int j = 0; j < jLines.size(); j++ ){
+            JSONObject job = (JSONObject) jLines.get(j);
+            out.println(job.get("text").toString().replace("\n",""));
         }
 
-        for (int i = 0; i < results.size(); i++){
-            review = (String) results.get(i);
-            System.out.println(review);
-        }
-
-        Object obj = parser.parse(review);
-        JSONObject array = (JSONObject) obj;
-*/
     }
 }
