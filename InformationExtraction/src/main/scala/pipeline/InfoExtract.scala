@@ -3,6 +3,7 @@ package pipeline
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.{SparkConf, SparkContext}
 import pipeline.PrepareJson.prepareJson
+import pipeline.WordCount.PerformWordCount
 
 import org.apache.log4j.{Level, Logger}
 
@@ -30,11 +31,12 @@ object InfoExtract {
 
 
     //Generate proper text file to be used as input
-    prepareJson("SampleDataset.txt", "text");
+    prepareJson("SampleDataset.txt", "text", "Reviews.txt")
 
+    //Count word frequenct in file
+    PerformWordCount("Reviews.txt")
 
-
-
+    
 
 
   }

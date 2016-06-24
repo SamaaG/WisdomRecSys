@@ -34,12 +34,12 @@ public class PrepareJson {
     }
 
     //create a text file that only include the passed "attribute" section of "file"
-    public static void prepareJson(String file, String attribute) throws IOException, ParseException {
+    public static void prepareJson(String file, String attribute, String output) throws IOException, ParseException {
 
         //each object in jLines is a single JSON object representing a user review
         JSONArray jLines = readFileAsJsonArray(file);
 
-        PrintWriter out = new PrintWriter("Reviews.txt");
+        PrintWriter out = new PrintWriter(output);
 
         //extract the text from the reviews and create a new text file
         for( int j = 0; j < jLines.size(); j++ ){
