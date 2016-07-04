@@ -4,7 +4,7 @@
 		module="informationextraction-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160627120732"
+		publication="20160704145331"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
