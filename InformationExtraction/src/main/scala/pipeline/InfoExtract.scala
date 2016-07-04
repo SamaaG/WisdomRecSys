@@ -6,9 +6,9 @@ import pipeline.PrepareJson.prepareJson
 import pipeline.WordCount.PerformWordCount
 import pipeline.NLPanalysis.{nlpAnalysis, returnLemma}
 import pipeline.TFIDF.performTFIDF
+import pipeline.Word2Vec.word2vec
+
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.ml.feature.{NGram, StopWordsRemover, Tokenizer}
-import org.apache.spark.rdd.RDD
 
 
 /**
@@ -56,7 +56,9 @@ object InfoExtract {
       (0, lemma)
     })
 
-    performTFIDF(readyFile, sc, spark, input)
+    performTFIDF(sc, spark, input)
+
+    word2vec(sc, input)
 
 
   }

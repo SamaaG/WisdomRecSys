@@ -16,7 +16,7 @@ import scala.collection.immutable.HashMap
   */
 object TFIDF {
 
-    def performTFIDF(filePath: String, sc: SparkContext, spark: SparkSession, input: RDD[(Int, String)]) {
+    def performTFIDF(sc: SparkContext, spark: SparkSession, input: RDD[(Int, String)]) {
 
       // Turn off Info Logger for Console
       Logger.getLogger("org").setLevel(Level.OFF);

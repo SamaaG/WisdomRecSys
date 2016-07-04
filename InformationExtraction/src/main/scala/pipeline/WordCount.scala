@@ -1,10 +1,7 @@
 package pipeline
 
 
-import java.io.File
-
-import org.apache.spark.sql.Row
-import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.SparkContext
 
 /**
   * Created by Samaa on 6/24/2016.
