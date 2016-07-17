@@ -1,0 +1,5847 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://www.sama.com/OWL/tutorial"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://www.sama.com/OWL/tutorial">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Compliment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Critisism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#generous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thyme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#respected"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#good"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paprika"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#luminous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#absolutely"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wondrous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cereal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#merit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#impossible"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#despicable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#successful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wonder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#free"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#popular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#knowledgeable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#one"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fruit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#upstanding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bliss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terrible"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fortunate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heavenly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sandwich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#raisin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#celery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#offensive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#believe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jubilant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#understaffed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#biscuit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#refreshing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#open"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beetroot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#calm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dirty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ingredient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#orange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#boring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adverse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#congratulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#healthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#marvelous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#think"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rotten"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bunch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#haddock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#small"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cheese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ham"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#just"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wonderful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#up"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#squash"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mushroom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spiteful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sunny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cheery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#horrible"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#grapefruit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blackcurrant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rocket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snacks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gooseberry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#basil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sugar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#peanut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#look"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#late"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pleasant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#misunderstand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coconut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#plural"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#know"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#horrendous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#enthusiastic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#full"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mayonnaise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ginger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#affluent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dairy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bubbly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#choice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#box"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cauliflower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cherry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disappoint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interesting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cooking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#and"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#make"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skilled"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hearty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#or"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thorough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aptitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#polish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jovial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#intelligent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frightful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sprout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lamb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#best"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#progress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#icing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fantastic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#condiment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tub"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pretty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pineapple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#approve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#handsome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spiritual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#runner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#favorable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deprive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ignorant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wholesome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#faulty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#slice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#honor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#whole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#negate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#raise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#table"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#healing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bravo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#banana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#celebrated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stuck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#old"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crazy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#m"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#great"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#food"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brussels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bounty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#curry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#creative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#t"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#harmonious"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#acclaimed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#principled"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#want"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cumin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#charming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ideal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prominent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cucumber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#refined"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#plaice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#powder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glamorous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thrilling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#upset"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#damage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#negative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#messy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#distress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bacon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frighten"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#intellectual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#immature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#table"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#legendary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oveprice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#salami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#strawberry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#positive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#really"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#break"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ethical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#product"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#finger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#danish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#corrupt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ready"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nurture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bread"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#restore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zealous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#famous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vinegar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cook"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cocktail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#try"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#delightful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#self"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vivacious"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#instant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fresh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vegetable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#graceful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#grin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pepper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#grim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pastry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#phenomenal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yoghurt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carrot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meritorious"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#date"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#friendly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#corn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coarse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#simple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#make"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flourish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mustard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chicken"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#white"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pitta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rewarding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reliable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#like"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#attractive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reassuring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inventive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#marmalade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hurtful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ugly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cruel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#safe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unhappy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yeast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#semus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#miraculous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rhubarb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kind"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#classical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#idea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#range"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sauce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turnip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ignore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#upbeat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#now"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#not"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#organic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#come"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#order"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hummus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vibrant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#liver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#place"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#damaging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#efficient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#appealing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lovely"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dreadful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#better"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#porridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#outstanding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pomegranate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#classic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#redcurrant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#commend"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thrive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#don"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#salad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#atrocious"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fabulous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seemly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stick"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#achievement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#endorse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#effervescent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#upright"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wealthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#resounding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gorgeous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yucky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#awful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frozen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#angry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#freeze"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lousy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crisp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amazing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#protected"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#willing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sultana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#exquisite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#suspicious"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#superb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lettuce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#veal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#menu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#goat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#grape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aubergine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#decaying"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#innovative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bountiful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blueberry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fair"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dishonest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coriander"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#restaurant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#natural"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chocolate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bottle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cornflour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#challenging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tasty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contradictory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#baked"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#remarkable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cabbage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#okay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#give"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#word"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smoked"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turkey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paradise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#roll"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quiche"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pork"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#worthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#apricot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spaghetti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#independent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#radish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#awesome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anchovy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sponge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pasta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#admire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#plentiful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beansprout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#laugh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#parsley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deform"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#optimistic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gross"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cinnamon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#e"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#avocado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truthful"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#look"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brilliant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sweet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#m"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#food"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#intuitive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vinaigrette"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#t"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#know"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#exciting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dead"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#essential"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#creepy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#salt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spinach"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#special"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#questionable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stinky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cottage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stunning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stupid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#good"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prepared"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perfect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#honest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#potential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#come"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sausage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#packaging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kipper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kidney"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#angelic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unsatisfied"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#che"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kiwi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#butter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#melon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prefer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#duck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#imperfect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sandwich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gruesome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#useful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rejoice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#asparagus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lucid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adventure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beneath"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#punnet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hearted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#peach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#percent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rosemary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sweetcorn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#never"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tomato"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quiet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#certain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#herr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#enjoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#poise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#can"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#easy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#active"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#joy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#instantaneous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#elegant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#herb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#engaging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tuna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#transform"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#agreeable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#filthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#depressed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#broad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#impressive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chilli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#imaginative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#say"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#great"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clove"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#energetic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#right"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glowing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#passionate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#novel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pumpkin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#super"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#robust"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#move"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clumsy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fitting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#egg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fruit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fetch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#want"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#walnut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fig"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cube"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#naive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quick"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#divine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hostile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#artichoke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#onion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#margarine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#baguette"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#proud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anxious"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#french"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#olive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#learn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#plain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mince"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#salmon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#compose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#criminal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#affirmative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#milk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dazzling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#confused"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mackerel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smelly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ecstatic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#esteemed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#agree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unhealthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#poor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#icky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#victorious"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sardine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beef"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tranquil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bread"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ketchup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#transformative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oppressive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hurt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#excellent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#saffron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#grow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unpleasant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prune"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#broccoli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shocking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#success"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#top"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#masterful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#noodle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sparkling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#genuine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#courageous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#effective"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yummy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soulful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chicken"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#honey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#courgette"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lingonberry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cornflake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#suspect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#confuse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pleasurable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#apathy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stressful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#collapse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pilchard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#electrifying"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#garlic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#powerful"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#like"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#victory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stupendous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sob"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#productive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pig"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#honorable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adorable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nutritious"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bread"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#distinguished"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mango"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#order"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#new"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#champ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#green"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#say"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nasty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#really"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#enchanting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accomplish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#appalling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#raspberry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#happy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#constant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#champion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#try"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lively"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#plum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#salad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#no"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#breakfast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#virtuous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beneficial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terrific"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#delight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accomplishment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#miss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nutmeg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lucky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#motivate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trust"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hundred"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lemon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spirited"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#potato"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#loaf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cheese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#just"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#funny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#other"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#instinctive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unreal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#welcome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nobody"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sorry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#apple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#home"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#restaurant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#muesli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#earnest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blackberry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#genius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disgust"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#well"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sauce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unsatisfactory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rib"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#energize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beautiful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#secure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#annoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#familiar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#satisfactory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#surprising"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#effortless"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alarming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#impatient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#usually"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vigorous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hideous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#packet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#foul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meaningful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#innovate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#encouraging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unwaver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skillful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#swede"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#imagine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#think"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#don"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#Bread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#Breakfast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#Brussels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#Dairy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#Food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#Fruit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#Snacks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#absolutely"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#accept"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#acclaimed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#accomplish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#accomplishment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#achievement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#active"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#admire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#adorable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#adverse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#affirmative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#affluent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#agree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#agreeable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#alarming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#amazing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#anchovy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#angelic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#angry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#annoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#anxious"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#apathy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#appalling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#appealing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#apple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#approve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#apricot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#apricot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#aptitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#artichoke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#asparagus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#atrocious"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#attractive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#aubergine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#avocado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#awesome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#awful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bacon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#bad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#baguette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#baked"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#baked"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#banana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#banana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#basil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#beam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#beansprout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#beautiful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#beef"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#beef"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#beef"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#beetroot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#believe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#beneath"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#beneficial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#best"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#better"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#biscuit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#biscuit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#blackberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#blackcurrant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#bliss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#blue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#blueberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#boring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bottle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#bountiful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#bounty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#box"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#brave"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#bravo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#bread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#break"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#breakfast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#brilliant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#broad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#broccoli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#brown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#brown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#bubbly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bunch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#bunch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#butter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#butter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cabbage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#calm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#can"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#can"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#carrot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#carton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cauliflower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#celebrated"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#celery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#celery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cereal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#certain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#challenging"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#champ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#champion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#charming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#che"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#cheery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#cheese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#cheese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cheese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cheese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cheese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cheese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cheese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cheese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cherry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#chicken"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#chicken"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#chilli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#chilli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#chilli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#chip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#chive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#chocolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#chocolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#choice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cinnamon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#classic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#classical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#clean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#clean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#clove"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#clumsy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#coarse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cocktail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#coconut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#cold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#cold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#collapse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#come"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#come"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#come"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#commend"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#compose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#condiment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#confuse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#confused"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#congratulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#constant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#contradictory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cooking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cooking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#cool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#cool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#coriander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#corn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cornflake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cornflour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#corrupt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cottage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#courageous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#courgette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#crazy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#creative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#creative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#creepy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#criminal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#crisp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#crisp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#crisp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#cruel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cube"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cucumber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#cumin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#curry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#cute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#damage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#damaging"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#danish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#date"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#dazzling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#dead"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#decaying"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#deform"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#delight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#delightful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#deny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#depressed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#deprive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#despicable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#dill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#dirty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#disappoint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#disgust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#dishonest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#distinguished"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#distress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#divine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#don"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#don"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#dreadful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#dress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#dry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#dry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#duck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#e"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#earnest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#easy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#eat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#eat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#ecstatic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#effective"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#effervescent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#efficient"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#effortless"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#egg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#egg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#egg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#electrifying"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#elegant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#enchanting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#encouraging"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#endorse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#energetic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#energize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#engaging"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#enjoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#enthusiastic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#essential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#esteemed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#ethical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#excellent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#exciting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#exquisite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#fabulous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#fail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#fair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#familiar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#famous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#fantastic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#fat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#faulty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#favorable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#fear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#fetch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#fig"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#fight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#filthy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#fine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#finger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#fish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#fish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#fish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#fitting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#flour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#flour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#flourish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#fortunate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#foul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#fra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#freeze"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#freeze"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#french"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#fresh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#friendly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#friendly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#frighten"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#frightful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#frozen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#fruit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#full"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#fun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#funny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#garlic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#garlic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#garlic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#generous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#genius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#genuine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#ginger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#give"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#glamorous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#glowing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#goat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#good"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#good"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#good"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#good"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#good"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#gooseberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#gorgeous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#graceful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#grape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#grape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#grapefruit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#grapefruit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#great"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#great"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#great"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#great"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#green"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#grim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#grin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#gross"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#grow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#gruesome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#haddock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#ham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#handsome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#happy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#harmonious"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#hate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#healing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#healthy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#hearted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#hearty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#heavenly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#herb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#herr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#herr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#hideous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#home"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#honest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#honey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#honor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#honorable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#horrendous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#horrible"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#hostile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#hug"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#hummus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#hundred"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#hurt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#hurtful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#ice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#ice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#icing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#icky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#idea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#ideal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#ignorant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#ignore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#imaginative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#imagine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#immature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#impatient"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#imperfect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#impossible"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#impressive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#inability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#independent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#ingredient"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#innovate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#innovative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#instant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#instantaneous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#instinctive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#intellectual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#intelligent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#interesting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#intuitive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#inventive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#jam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#jam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#jar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#jovial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#joy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#jubilant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#just"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#just"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#just"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#keen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#ketchup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#kidney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#kidney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#kind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#kipper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#kiwi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#know"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#know"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#knowledgeable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#lack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#lamb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#late"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#laugh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#learn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#leek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#legendary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#lemon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#lettuce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#lime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#lingonberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#lively"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#liver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#loaf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#loaf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#loaf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#look"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#lose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#lousy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#lovely"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#lucid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#lucky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#luminous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#m"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#mac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#mackerel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#mango"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#margarine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#marmalade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#marvelous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#masterful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#mayonnaise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#meal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#meaningful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#meat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#meat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#melon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#menu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#merit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#meritorious"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#messy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#milk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#milk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#milk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#milk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#milk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#milk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#mince"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#mince"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#miraculous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#miss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#misunderstand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#motivate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#move"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#muesli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#mushroom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#mustard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#naive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#nasty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#natural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#negate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#negative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#never"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#new"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#nice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#nobody"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#noodle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#not"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#novel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#now"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#nurture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#nut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#nutmeg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#nutritious"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#offensive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#oil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#oil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#okay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#old"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#olive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#olive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#onion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#onion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#open"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#oppressive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#optimistic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#or"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#or"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#or"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#or"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#orange"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#organic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#outstanding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#oveprice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#packaging"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#packet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#packet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#packet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#pain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#paprika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#paradise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#parsley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#passionate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pasta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pasta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pastry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pastry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#peach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#peanut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pepper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pepper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pepper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pepper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#percent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#perfect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#perfect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#phenomenal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pig"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pilchard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pineapple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pitta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#place"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#place"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#place"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#plaice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#plain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#plain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#pleasant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#pleasurable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#plentiful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#plentiful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#plum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#plural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#plural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#plural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#poise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#polish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pomegranate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#poor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#popular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#porridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#positive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#potato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#potato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#potato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#potato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#potato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#potential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#powder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#powder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#powder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#powerful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#prefer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#prepared"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#pretty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#principled"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#product"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#productive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#progress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#prominent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#protected"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#proud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#prune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pumpkin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#punnet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#pur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#quality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#questionable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#quiche"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#quick"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#quiet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#quit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#radish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#raise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#raisin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#range"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#raspberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#ready"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#ready"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#really"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#really"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#reassuring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#redcurrant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#refined"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#refreshing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#reject"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#rejoice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#reliable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#remarkable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#resounding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#respected"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#restaurant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#restaurant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#restaurant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#restore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#reward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#rewarding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#rhubarb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#rib"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#rice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#right"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#robust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#rocket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#roll"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#roll"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#rosemary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#rotten"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#rude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#runner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#safe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#saffron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#salad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#salad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#salami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#salmon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#salmon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#salt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#sandwich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sandwich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sardine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#satisfactory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#sauce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sauce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sauce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sausage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sausage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#say"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#secure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#seemly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#self"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#semus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#shocking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#simple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#skilled"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#skillful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#skim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#skim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#slice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#small"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#smelly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#smile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#smoked"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#smoked"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#sob"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#sorry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#soulful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#soup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#spaghetti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#sparkling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#special"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#spice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#spinach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#spirited"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#spiritual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#spiteful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sponge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#spring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sprout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#squash"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#stick"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#stinky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#stir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#stock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#strawberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#strawberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#stressful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#stuck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#stunning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#stupendous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#stupid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#success"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#successful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sugar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sugar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sugar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sultana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#sunny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#super"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#superb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#support"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#surprising"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#suspect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#suspicious"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#swede"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#sweetcorn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#table"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#tasty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#terrible"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#terrific"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#think"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#thorough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#thrilling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#thrive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#thyme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#tin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#tin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#toast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#tomato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#tomato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#tomato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#tomato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#tranquil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#transform"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#transformative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#trout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#trust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#truthful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#try"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#try"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#tub"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#tuna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#turkey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#turnip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#ugly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#understaffed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#unhappy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#unhealthy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#unpleasant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#unreal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#unsatisfactory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#unsatisfied"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#unwaver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#upbeat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#upright"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#upset"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#upstanding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#useful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#usually"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#veal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#vegetable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#vibrant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#victorious"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#victory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#vigorous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#vinaigrette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#vinegar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#virtuous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#vital"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#vivacious"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#walnut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#want"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#wealthy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#welcome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#well"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#whole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#wholesome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#willing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#wonder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#wonderful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#wondrous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#word"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#worthy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#wow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#yeast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#yell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#yes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#yoghurt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Critisism"/>
+        <NamedIndividual IRI="#yucky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#yummy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#zeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compliment"/>
+        <NamedIndividual IRI="#zealous"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#bread"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#cheese"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#cheese"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#chicken"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#come"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#come"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#come"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#don"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#eat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#eat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#good"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#good"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#good"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#great"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#great"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#just"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#just"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#just"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#know"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#like"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#like"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#like"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#look"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#love"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#m"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#make"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#make"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#make"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#menu"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#order"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#order"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#order"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#pizza"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#really"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#really"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#restaurant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#restaurant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#restaurant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#s"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#salad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#sandwich"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#sauce"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#say"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#t"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#t"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#t"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#table"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#think"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#time"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#time"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#time"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#try"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#try"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#want"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.0.2.20160507-1747) https://github.com/owlcs/owlapi/ -->
+
+
