@@ -33,24 +33,27 @@ public class Restaurant {
     private boolean eliminate; // Used to pre-filter some data.
 
     public Restaurant(String jsonLine) throws IOException {
-        if(jsonLine.charAt(0) == '[') {
-            jsonLine = jsonLine.substring(1);
-        }
-        jsonLine = jsonLine.substring(0,jsonLine.length() - 1);
+        jsonLine = jsonLine.substring(jsonLine.indexOf('{'), jsonLine.lastIndexOf('}') + 1);
         JsonElement jElement = new JsonParser().parse(jsonLine);
         JsonObject jObject = jElement.getAsJsonObject();
         JsonElement jElement2 = jObject.get("Name");
-        name = jElement2.toString();
+        name = jElement2.toString().substring(1, jElement2.toString().length() - 1);
         jElement2 = jObject.get("Type");
         type = jElement2.toString();
         jElement2 = jObject.get("Address");
-        address = jElement2.toString();
+        address = jElement2.toString().substring(1, jElement2.toString().length() - 1);
         jElement2 = jObject.get("City_State_Postal");
-        csp = jElement2.toString();
+        csp = jElement2.toString().substring(1, jElement2.toString().length() - 1);
         jElement2 = jObject.get("Phone");
-        phone = jElement2.toString();
+        phone = jElement2.toString().substring(1, jElement2.toString().length() - 1);
         jElement2 = jObject.get("Website");
         url = jElement2.toString();
+        if(url.contains("www")) {
+            url = url.substring(1, jElement2.toString().length() - 1);
+        }
+        else {
+            url = "N/A";
+        }
         jElement2 = jObject.get("Zip");
         zipCode = jElement2.toString();
         jElement2 = jObject.get("Food");

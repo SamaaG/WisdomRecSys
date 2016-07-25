@@ -4,7 +4,7 @@
 		module="w-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160724152433"
+		publication="20160724221602"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

@@ -18,7 +18,6 @@ public class Wisdom {
     }
 
     public String[] Recommend() throws IOException {
-
         String filename = "C:/Users/dwk89/IdeaProjects/W/data/Trained_Data/trainedData.json";
         String line = null;
         int i = 0;

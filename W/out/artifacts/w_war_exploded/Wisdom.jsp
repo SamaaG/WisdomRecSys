@@ -179,7 +179,7 @@
             <td><br><input type = "checkbox", name = "wifi"> Complimentary Wi-Fi Service<br><input type = "checkbox", name = "calory"> Under-600-Calories <b>ENTREE</b> Avaliable</td>
         </tr>
     </table>
-    <p id = "button", align = "center"><br><input type = "submit", value = "Submit"><a href="https://localhost:8080/results.html">test     test</a><button class = "button"><span>Find A Restaurant</span></button><button class = "button button2", style = "margin: 0px 0px 0px 16px;"><span>Start Over</span></button></p>
+    <p id = "button", align = "center"><br><button type = "submit", class = "button"><span>Find A Restaurant</span></button><button class = "button button2", type = "reset", style = "margin: 0px 0px 0px 16px;"><span>Start Over</span></button></p>
 </form>
 </body>
 </html>

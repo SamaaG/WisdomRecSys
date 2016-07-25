@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160724164821"/>
+		date="20160725080912"/>
 	<dependencies>
 		<module organisation="javax.servlet" name="javax.servlet-api">
 			<revision name="3.0.1" status="release" pubdate="20110712144052" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://servlet-spec.java.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
@@ -18,7 +18,7 @@
 					<artifact name="javax.servlet-api" type="jar" ext="jar" status="no" details="" size="85353" time="0" location="C:\Users\dwk89\.ivy2\cache\javax.servlet\javax.servlet-api\jars\javax.servlet-api-3.0.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"/>
 					</artifact>
-					<artifact name="javax.servlet-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="212871" time="5109" location="C:\Users\dwk89\.ivy2\cache\javax.servlet\javax.servlet-api\srcs\javax.servlet-api-3.0.1-sources.jar">
+					<artifact name="javax.servlet-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="212871" time="0" location="C:\Users\dwk89\.ivy2\cache\javax.servlet\javax.servlet-api\srcs\javax.servlet-api-3.0.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>

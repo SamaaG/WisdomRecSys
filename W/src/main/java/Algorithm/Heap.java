@@ -16,7 +16,7 @@ public class Heap {
             r1 = new Restaurant(arr[left]);
         }
         Restaurant r2 = new Restaurant(arr[root]);
-        if(left < arr.length && r1.is_better_than(r2)) {
+        if(left < arr.length && r2.is_better_than(r1)) {
             best = left;
         }
         else {
@@ -27,7 +27,7 @@ public class Heap {
             r3 = new Restaurant(arr[right]);
         }
         Restaurant r4 = new Restaurant(arr[best]);
-        if(right < arr.length && r3.is_better_than(r4)) {
+        if(right < arr.length && r4.is_better_than(r3)) {
             best = right;
         }
 
