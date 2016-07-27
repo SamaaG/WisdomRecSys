@@ -5,12 +5,14 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * Created by dwk89 on 07/24/2016.
+ * Created by Dayu Wang on 07/24/2016.
  */
 public class WebWriter {
+
     private static final String fileName = "C:/Users/dwk89/IdeaProjects/W/data/Other_Data/WebScript.txt";
 
     public String GetWebScript () throws IOException {
+
         FileReader reader = new FileReader(fileName);
         BufferedReader bReader = new BufferedReader(reader);
 

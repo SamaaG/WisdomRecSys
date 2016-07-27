@@ -9,13 +9,14 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * Created by dwk89 on 07/24/2016.
+ * Created by Dayu Wang on 07/24/2016.
  */
 @javax.servlet.annotation.WebServlet(name = "WisdomServlet", urlPatterns = {"/results"})
 public class WisdomServlet extends javax.servlet.http.HttpServlet {
+
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
+
         response.setContentType("text/html");
-        //PrintWriter out = response.getWriter();
         String searchText = request.getParameter("searchText");
         String cost = request.getParameter("cost");
         String wifi = request.getParameter("wifi");
@@ -46,7 +47,9 @@ public class WisdomServlet extends javax.servlet.http.HttpServlet {
         out.println("<p><br></p>");
 
         for(int j = results.length - 1; j >= 0; j--) {
+
             R = new Restaurant(results[j]);
+
             out.print("<p align = \"center\">\n" +
                     "<style>\n" +
                     "#results");
@@ -71,23 +74,6 @@ public class WisdomServlet extends javax.servlet.http.HttpServlet {
                     "<tr><td>Website: ");
             out.println(R.url);
             out.print("</td></tr>\n<tr><td><br>");
-            /*out.print("</td></tr>\n" +
-                    "<tr><td>Food: <b>");
-            out.print(Math.round(R.food * 100.0) / 100.0);
-            out.println("</b>");
-            out.print("</td></tr>\n" +
-                    "<tr><td>Ambiance: <b>");
-            out.println(Math.round(R.ambiance * 100.0) / 100.0);
-            out.println("</b>");
-            out.print("</td></tr>\n" +
-                    "<tr><td>Service: <b>");
-            out.println(Math.round(R.service * 100.0) / 100.0);
-            out.println("</b>");
-            out.print("</td></tr>\n" +
-                    "<tr><td>Cost Performance: <b>");
-            out.println(Math.round(R.cost * 100.0) / 100.0);
-            out.println("</b>");
-            out.print("</td></tr>\n" + "<tr><td>\n");*/
 
             // Print out the pentagonal shape.
             out.print("<svg width = \"380px\" height = \"290px\">\n" +
@@ -119,8 +105,6 @@ public class WisdomServlet extends javax.servlet.http.HttpServlet {
             out.print(R.SVGText());
 
             out.print("</svg>");
-
-            //out.print("</td></tr><td><tr>" + R.FivePoints());
 
             out.println("</td></tr></table></p>");
         }

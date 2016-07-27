@@ -6,9 +6,10 @@ import Algorithm.Restaurant;
 import java.io.*;
 
 /**
- * Created by dwk89 on 07/23/2016.
+ * Created by Dayu Wang on 07/23/2016.
  */
 public class Wisdom {
+
     private int recommendSize;
     public String[] list;
 
@@ -18,6 +19,7 @@ public class Wisdom {
     }
 
     public String[] Recommend() throws IOException {
+
         String filename = "C:/Users/dwk89/IdeaProjects/W/data/Trained_Data/trainedData.json";
         String line = null;
         int i = 0;
@@ -28,7 +30,9 @@ public class Wisdom {
 
         FileReader reader = new FileReader(filename);
         BufferedReader bReader = new BufferedReader(reader);
+
         while ((line = bReader.readLine()) != null) {
+
             if(i < recommendSize) {
                 L.list[i] = line;
                 i++;
@@ -54,6 +58,7 @@ public class Wisdom {
         int k1, k2;
 
         for (int j = 0; j < L.list.length; j++) {
+
             k1 = L.list[j].indexOf('{');
             k2 = L.list[j].lastIndexOf('}');
             L.list[j] = L.list[j].substring(k1, k2 + 1);
@@ -78,9 +83,15 @@ public class Wisdom {
         return L.list;
     }
 
-    /*public static void main(String[] args) throws Exception {
+    /*
+    public static void main(String[] args) throws IOException {
+
         Wisdom L = new Wisdom(8);
         String result[] = L.Recommend();
-        System.out.println(result[0]);
-    }*/
+
+        for (int i = 0; i < 8; i++) {
+            System.out.println(result[i]);
+        }
+    }
+    */
 }

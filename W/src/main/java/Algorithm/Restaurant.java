@@ -2,6 +2,7 @@ package Algorithm;
 
 import Learning_Model.Correlation;
 import User_Input.UserInput;
+
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -10,9 +11,10 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 
 /**
- * Created by dwk89 on 07/23/2016.
+ * Created by Dayu Wang on 07/23/2016.
  */
 public class Restaurant {
+
     public String name;
     public String address;
     public String type;
@@ -34,41 +36,57 @@ public class Restaurant {
     private boolean eliminate; // Used to pre-filter some data.
 
     public Restaurant(String jsonLine) throws IOException {
+
         jsonLine = jsonLine.substring(jsonLine.indexOf('{'), jsonLine.lastIndexOf('}') + 1);
         JsonElement jElement = new JsonParser().parse(jsonLine);
         JsonObject jObject = jElement.getAsJsonObject();
+
         JsonElement jElement2 = jObject.get("Name");
         name = jElement2.toString().substring(1, jElement2.toString().length() - 1);
+
         jElement2 = jObject.get("Type");
         type = jElement2.toString();
+
         jElement2 = jObject.get("Address");
         address = jElement2.toString().substring(1, jElement2.toString().length() - 1);
+
         jElement2 = jObject.get("City_State_Postal");
         csp = jElement2.toString().substring(1, jElement2.toString().length() - 1);
+
         jElement2 = jObject.get("Phone");
         phone = jElement2.toString().substring(1, jElement2.toString().length() - 1);
+
         jElement2 = jObject.get("Website");
         url = jElement2.toString();
+
         if(url.contains("www")) {
             url = url.substring(1, jElement2.toString().length() - 1);
         }
         else {
             url = "N/A";
         }
+
         jElement2 = jObject.get("Zip");
         zipCode = jElement2.toString();
+
         jElement2 = jObject.get("Food");
         food = Double.parseDouble(jElement2.toString().substring(1,jElement2.toString().length() - 1));
+
         jElement2 = jObject.get("Service");
         service = Double.parseDouble(jElement2.toString().substring(1,jElement2.toString().length() - 1));
+
         jElement2 = jObject.get("Ambiance");
         ambiance = Double.parseDouble(jElement2.toString().substring(1,jElement2.toString().length() - 1));
+
         jElement2 = jObject.get("Cost");
         cost = Double.parseDouble(jElement2.toString().substring(1,jElement2.toString().length() - 1));
+
         combination = (food + service + ambiance + cost) / 4;
         jElement2 = jObject.get("Wifi");
+
         wifi = jElement2.toString().contains("TRUE") ? true : false;
         jElement2 = jObject.get("Healthy");
+
         healthy = jElement2.toString().contains("TRUE") ? true: false;
 
         Correlation c = new Correlation();
@@ -78,17 +96,21 @@ public class Restaurant {
     }
 
     private boolean Eliminate() {
+
         if(food < 3 || service < 3 || ambiance < 3 || cost < 3)
             return true;
+
         return false;
     }
 
     public boolean is_better_than(Restaurant r) throws IOException {
+
         UserInput input = new UserInput();
 
         if (input.satisfyDegree(this) > input.satisfyDegree(r)) {
             return true;
         }
+
         if (input.satisfyDegree(this) < input.satisfyDegree(r)) {
             return false;
         }
@@ -96,6 +118,7 @@ public class Restaurant {
         if (this.combination - r.combination >= 1) {
             return true;
         }
+
         if (r.combination - this.combination >= 1) {
             return false;
         }
@@ -130,6 +153,7 @@ public class Restaurant {
         if (sd_this - sd_r >= 0.5) {
             return false;
         }
+
         if (sd_r - sd_this >= 0.5) {
             return true;
         }
@@ -143,18 +167,19 @@ public class Restaurant {
     }
 
     /*
-    <!-- x_Food = 100 - (100 - 4.89) * (food * (20/100)) -->
-    <!-- y_Food = 100 - (100 - 69.1) * (food * (20/100)) -->
-    <!-- x_Ambiance = 100 - (100 - 41.22) * (ambiance * (20/100)) -->
-    <!-- y_Ambiance = 100 + (180.9 - 100) * (ambiance * (20/100)) -->
-    <!-- x_Service = 100 + (158.78 - 100) * (service * (20/100)) -->
-    <!-- y_Service = 100 + (180.9 - 100) * (service * (20/100)) -->
-    <!-- x_Cost = 100 + (195.11 - 100) * (cost * (20/100)) -->
-    <!-- y_Cost = 100 - (100 - 69.1) * (cost * (20/100)) -->
-    <!-- x_Average = 100 -->
-    <!-- y_Average = 100 - 100 * (average * (20/100)) -->
+    x_Food = 100 - (100 - 4.89) * (food * (20/100))
+    y_Food = 100 - (100 - 69.1) * (food * (20/100))
+    x_Ambiance = 100 - (100 - 41.22) * (ambiance * (20/100))
+    y_Ambiance = 100 + (180.9 - 100) * (ambiance * (20/100))
+    x_Service = 100 + (158.78 - 100) * (service * (20/100))
+    y_Service = 100 + (180.9 - 100) * (service * (20/100))
+    x_Cost = 100 + (195.11 - 100) * (cost * (20/100))
+    y_Cost = 100 - (100 - 69.1) * (cost * (20/100))
+    x_Average = 100
+    y_Average = 100 - 100 * (average * (20/100))
     */
     public String FivePoints() {
+
         double x_Food = 100 - (100 - 4.89) * (food * 0.2);
         double y_Food = 100 - (100 - 69.1) * (food * 0.2);
         double x_Ambiance = 100 - (100 - 41.22) * (ambiance * 0.2);
@@ -179,6 +204,7 @@ public class Restaurant {
     }
 
     public String SVGText() {
+
         DecimalFormat df = new DecimalFormat("0.0");
 
         String result = "<style>\n" +
@@ -193,15 +219,19 @@ public class Restaurant {
         result += (String)df.format(food);
         result += "</text>\n" +
                 "            <text fill = \"firebrick\" class = \"rating\" x = \"25\" y = \"256\">";
+
         result += (String)df.format(ambiance);
         result += "</text>\n" +
                 "            <text fill = \"firebrick\" class = \"rating\" x = \"227\" y = \"256\">";
+
         result += (String)df.format(service);
         result += "</text>\n" +
                 "            <text fill = \"firebrick\" class = \"rating\" x = \"295\" y = \"136\">";
+
         result += (String)df.format(cost);
         result += "</text>\n" +
                 "            <text fill = \"firebrick\" class = \"rating\" x = \"130\" y = \"42\">";
+
         result += (String)df.format(combination);
         result += "</text>\n";
 
