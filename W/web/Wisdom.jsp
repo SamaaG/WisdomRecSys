@@ -167,7 +167,7 @@
     <p align = "center"><input type = "text", name = "searchText", placeholder = "Look for a restaurant.."></p>
     <table id = "checkBox", styple = "width: 600px", align = "center", cellpadding = "10px">
         <tr>
-            <td><br>1. Looking for a restaruant for?</td>
+            <td><br>1. Looking for a restaurant for?</td>
             <td><br><input type = "radio", name = "mealType", value = "breakfast"> Breakfast <input type = "radio", name = "mealType", value = "lunch"> Lunch <input type = "radio", name = "mealType", value = "dinner" checked> Dinner</td>
         </tr>
         <tr>
@@ -175,8 +175,8 @@
             <td><br><input type = "checkbox", name = "cost"> Price No-Higher Than <img id = "d", src = "http://imgh.us/dollar.png", alt = "<ERROR>", style = "width: 18px; height: 18px; margin: 0px 0px 3px 0px;" /><img id = "d2", src = "http://imgh.us/dollar.png", alt = "<ERROR>", style = "width: 18px; height: 18px; margin: 0px 0px 3px 0px;" /></td>
         </tr>
         <tr valign = "top">
-            <td><br>5. Other kinds of service?</td>
-            <td><br><input type = "checkbox", name = "wifi"> Complimentary Wi-Fi Service<br><input type = "checkbox", name = "calory"> Under-600-Calories <b>ENTREE</b> Avaliable</td>
+            <td><br>3. Other kinds of service?</td>
+            <td><br><input type = "checkbox", name = "wifi"> Complimentary Wi-Fi Service<br><input type = "checkbox", name = "calory"> Under-600-Calories <b>ENTREE</b> Available</td>
         </tr>
     </table>
     <p id = "button", align = "center"><br><button type = "submit", class = "button"><span>Find A Restaurant</span></button><button class = "button button2", type = "reset", style = "margin: 0px 0px 0px 16px;"><span>Start Over</span></button></p>

@@ -7,6 +7,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import java.io.IOException;
+import java.text.DecimalFormat;
 
 /**
  * Created by dwk89 on 07/23/2016.
@@ -139,5 +140,71 @@ public class Restaurant {
         else {
             return false;
         }
+    }
+
+    /*
+    <!-- x_Food = 100 - (100 - 4.89) * (food * (20/100)) -->
+    <!-- y_Food = 100 - (100 - 69.1) * (food * (20/100)) -->
+    <!-- x_Ambiance = 100 - (100 - 41.22) * (ambiance * (20/100)) -->
+    <!-- y_Ambiance = 100 + (180.9 - 100) * (ambiance * (20/100)) -->
+    <!-- x_Service = 100 + (158.78 - 100) * (service * (20/100)) -->
+    <!-- y_Service = 100 + (180.9 - 100) * (service * (20/100)) -->
+    <!-- x_Cost = 100 + (195.11 - 100) * (cost * (20/100)) -->
+    <!-- y_Cost = 100 - (100 - 69.1) * (cost * (20/100)) -->
+    <!-- x_Average = 100 -->
+    <!-- y_Average = 100 - 100 * (average * (20/100)) -->
+    */
+    public String FivePoints() {
+        double x_Food = 100 - (100 - 4.89) * (food * 0.2);
+        double y_Food = 100 - (100 - 69.1) * (food * 0.2);
+        double x_Ambiance = 100 - (100 - 41.22) * (ambiance * 0.2);
+        double y_Ambiance = 100 + (180.9 - 100) * (ambiance * 0.2);
+        double x_Service = 100 + (158.78 - 100) * (service * 0.2);
+        double y_Service = 100 + (180.9 - 100) * (service * 0.2);
+        double x_Cost = 100 + (195.11 - 100) * (cost * 0.2);
+        double y_Cost = 100 - (100 - 69.1) * (cost * 0.2);
+        double x_Average = 100;
+        double y_Average = 100 - 100 * (combination * 0.2);
+
+        DecimalFormat df = new DecimalFormat("0.0");
+        String result = "";
+
+        result += (String)df.format(x_Food) + ',' + (String)df.format(y_Food) + ' ';
+        result += (String)df.format(x_Ambiance) + ',' + (String)df.format(y_Ambiance) + ' ';
+        result += (String)df.format(x_Service) + ',' + (String)df.format(y_Service) + ' ';
+        result += (String)df.format(x_Cost) + ',' + (String)df.format(y_Cost) + ' ';
+        result += (String)df.format(x_Average) + ',' + (String)df.format(y_Average);
+
+        return result;
+    }
+
+    public String SVGText() {
+        DecimalFormat df = new DecimalFormat("0.0");
+
+        String result = "<style>\n" +
+                ".rating{\n" +
+                "font-family: \"Trebuchet MS\", sans-serif;\n" +
+                "font-size: 12pt;\n" +
+                "font-weight: bold;\n" +
+                "}\n" +
+                "</style>\n" +
+                "<text fill = \"firebrick\" class = \"rating\" x = \"8\" y = \"136\">";
+
+        result += (String)df.format(food);
+        result += "</text>\n" +
+                "            <text fill = \"firebrick\" class = \"rating\" x = \"25\" y = \"256\">";
+        result += (String)df.format(ambiance);
+        result += "</text>\n" +
+                "            <text fill = \"firebrick\" class = \"rating\" x = \"227\" y = \"256\">";
+        result += (String)df.format(service);
+        result += "</text>\n" +
+                "            <text fill = \"firebrick\" class = \"rating\" x = \"295\" y = \"136\">";
+        result += (String)df.format(cost);
+        result += "</text>\n" +
+                "            <text fill = \"firebrick\" class = \"rating\" x = \"130\" y = \"42\">";
+        result += (String)df.format(combination);
+        result += "</text>\n";
+
+        return result;
     }
 }

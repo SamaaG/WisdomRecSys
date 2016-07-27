@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for default#w$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1387a0cc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43106418
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.api-client#google-api-client-gson;1.22.0 [compile->default(compile)]
 [info] Resolving com.google.api-client#google-api-client-gson;1.22.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@357f76e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@188a3087
 [debug] sbt-chain: module revision found in cache: com.google.api-client#google-api-client-gson;1.22.0
 [debug] 	found com.google.api-client#google-api-client-gson;1.22.0 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.api-client#google-api-client-gson;1.22.0 [compile->runtime]
@@ -23,7 +23,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.api-client#google-api-client-gson;1.22.0 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.api-client#google-api-client;1.22.0 [compile->default(compile)]
 [info] Resolving com.google.api-client#google-api-client;1.22.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44b7ae56
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5291ed62
 [debug] sbt-chain: module revision found in cache: com.google.api-client#google-api-client;1.22.0
 [debug] 	found com.google.api-client#google-api-client;1.22.0 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.api-client#google-api-client;1.22.0 [compile->runtime]
@@ -31,7 +31,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.api-client#google-api-client;1.22.0 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.oauth-client#google-oauth-client;1.22.0 [compile->default(compile)]
 [info] Resolving com.google.oauth-client#google-oauth-client;1.22.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17e09958
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1587b37
 [debug] sbt-chain: module revision found in cache: com.google.oauth-client#google-oauth-client;1.22.0
 [debug] 	found com.google.oauth-client#google-oauth-client;1.22.0 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.oauth-client#google-oauth-client;1.22.0 [compile->runtime]
@@ -39,7 +39,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.oauth-client#google-oauth-client;1.22.0 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.http-client#google-http-client;1.22.0 [compile->default(compile)]
 [info] Resolving com.google.http-client#google-http-client;1.22.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f4cfc11
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@83fa9ef
 [debug] sbt-chain: module revision found in cache: com.google.http-client#google-http-client;1.22.0
 [debug] 	found com.google.http-client#google-http-client;1.22.0 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.http-client#google-http-client;1.22.0 [compile->runtime]
@@ -47,7 +47,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.http-client#google-http-client;1.22.0 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47a4a72a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d7d3fdc
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.0.1
 [debug] 	found org.apache.httpcomponents#httpclient;4.0.1 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.0.1 [compile->runtime]
@@ -55,7 +55,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.0.1 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2443790a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@665aaff4
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.0.1
 [debug] 	found org.apache.httpcomponents#httpcore;4.0.1 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.0.1 [compile->runtime]
@@ -63,7 +63,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.0.1 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5db01a89
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e7cdd7b
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->runtime]
@@ -71,7 +71,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->commons-codec#commons-codec;1.6 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18fdc4bf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3968b3c2
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.6
 [debug] 	found commons-codec#commons-codec;1.6 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->commons-codec#commons-codec;1.6 [compile->runtime]
@@ -79,7 +79,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->commons-codec#commons-codec;1.6 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.http-client#google-http-client-jackson2;1.22.0 [compile->default(compile)]
 [info] Resolving com.google.http-client#google-http-client-jackson2;1.22.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4848979b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15606eb3
 [debug] sbt-chain: module revision found in cache: com.google.http-client#google-http-client-jackson2;1.22.0
 [debug] 	found com.google.http-client#google-http-client-jackson2;1.22.0 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.http-client#google-http-client-jackson2;1.22.0 [compile->runtime]
@@ -87,7 +87,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.http-client#google-http-client-jackson2;1.22.0 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.1.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6953171b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44e53962
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.1.3
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.1.3 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.1.3 [compile->runtime]
@@ -95,7 +95,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.1.3 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.guava#guava-jdk5;17.0 [compile->default(compile)]
 [info] Resolving com.google.guava#guava-jdk5;17.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@478fb053
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33a2f04e
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava-jdk5;17.0
 [debug] 	found com.google.guava#guava-jdk5;17.0 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.guava#guava-jdk5;17.0 [compile->runtime]
@@ -103,7 +103,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.guava#guava-jdk5;17.0 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.http-client#google-http-client-gson;1.22.0 [compile->default(compile)]
 [info] Resolving com.google.http-client#google-http-client-gson;1.22.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18fb1da5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e50a1b6
 [debug] sbt-chain: module revision found in cache: com.google.http-client#google-http-client-gson;1.22.0
 [debug] 	found com.google.http-client#google-http-client-gson;1.22.0 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.http-client#google-http-client-gson;1.22.0 [compile->runtime]
@@ -111,7 +111,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.http-client#google-http-client-gson;1.22.0 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.code.gson#gson;2.1 [compile->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53f5d40b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fc8107b
 [debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.1
 [debug] 	found com.google.code.gson#gson;2.1 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.code.gson#gson;2.1 [compile->runtime]
@@ -119,7 +119,7 @@
 [debug] == resolving dependencies default#w$sources_2.11;1.0->com.google.code.gson#gson;2.1 [compile->master]
 [debug] == resolving dependencies default#w$sources_2.11;1.0->javax.servlet#javax.servlet-api;3.0.1 [compile->default(compile)]
 [info] Resolving javax.servlet#javax.servlet-api;3.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@434ec000
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12300a07
 [debug] sbt-chain: module revision found in cache: javax.servlet#javax.servlet-api;3.0.1
 [debug] 	found javax.servlet#javax.servlet-api;3.0.1 in sbt-chain
 [debug] == resolving dependencies default#w$sources_2.11;1.0->javax.servlet#javax.servlet-api;3.0.1 [compile->runtime]
@@ -1085,7 +1085,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 1015ms :: artifacts dl 47ms
+[debug] :: resolution report :: resolve 1390ms :: artifacts dl 63ms
 [debug] 	report for default#w$sources_2.11;1.0 compile produced in C:\Users\dwk89\IdeaProjects\W\target\resolution-cache\reports\default-w$sources_2.11-compile.xml
 [debug] 	report for default#w$sources_2.11;1.0 runtime produced in C:\Users\dwk89\IdeaProjects\W\target\resolution-cache\reports\default-w$sources_2.11-runtime.xml
 [debug] 	report for default#w$sources_2.11;1.0 test produced in C:\Users\dwk89\IdeaProjects\W\target\resolution-cache\reports\default-w$sources_2.11-test.xml
@@ -1099,4 +1099,4 @@
 [debug] 	report for default#w$sources_2.11;1.0 docs produced in C:\Users\dwk89\IdeaProjects\W\target\resolution-cache\reports\default-w$sources_2.11-docs.xml
 [debug] 	report for default#w$sources_2.11;1.0 pom produced in C:\Users\dwk89\IdeaProjects\W\target\resolution-cache\reports\default-w$sources_2.11-pom.xml
 [debug] 	report for default#w$sources_2.11;1.0 scala-tool produced in C:\Users\dwk89\IdeaProjects\W\target\resolution-cache\reports\default-w$sources_2.11-scala-tool.xml
-[debug] 	resolve done (1015ms resolve - 47ms download)
+[debug] 	resolve done (1390ms resolve - 63ms download)

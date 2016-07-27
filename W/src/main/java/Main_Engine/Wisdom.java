@@ -78,9 +78,9 @@ public class Wisdom {
         return L.list;
     }
 
-    public static void main(String[] args) throws Exception {
+    /*public static void main(String[] args) throws Exception {
         Wisdom L = new Wisdom(8);
         String result[] = L.Recommend();
         System.out.println(result[0]);
-    }
+    }*/
 }

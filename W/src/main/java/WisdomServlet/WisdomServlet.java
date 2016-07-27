@@ -70,7 +70,8 @@ public class WisdomServlet extends javax.servlet.http.HttpServlet {
             out.print("</td></tr>\n" +
                     "<tr><td>Website: ");
             out.println(R.url);
-            out.print("</td></tr>\n" +
+            out.print("</td></tr>\n<tr><td><br>");
+            /*out.print("</td></tr>\n" +
                     "<tr><td>Food: <b>");
             out.print(Math.round(R.food * 100.0) / 100.0);
             out.println("</b>");
@@ -86,6 +87,41 @@ public class WisdomServlet extends javax.servlet.http.HttpServlet {
                     "<tr><td>Cost Performance: <b>");
             out.println(Math.round(R.cost * 100.0) / 100.0);
             out.println("</b>");
+            out.print("</td></tr>\n" + "<tr><td>\n");*/
+
+            // Print out the pentagonal shape.
+            out.print("<svg width = \"380px\" height = \"290px\">\n" +
+                    "            \n" +
+                    "            <!-- Basic Framework -->\n" +
+                    "            <polygon points = \"100,0 4.89,69.1 41.22,180.9 158.78,180.9 195.11,69.1\" style = \"fill:none; stroke:darkblue; stroke-width: 2\" transform = \"translate(40,50)\"></polygon>\n" +
+                    "            <style>\n" +
+                    "                .corner {\n" +
+                    "                    font-family: \"Trebuchet MS\", sans-serif;\n" +
+                    "                    font-size: 12pt;\n" +
+                    "                }\n" +
+                    "                .dash {\n" +
+                    "                    color:darkblue;\n" +
+                    "                }\n" +
+                    "            </style>\n" +
+                    "            <text fill = \"darkblue\" class = \"corner\" x = \"70\" y = \"23\" transform = \"translate(40)\">Average</text>\n" +
+                    "            <text fill = \"darkblue\" class = \"corner\" x = \"0\" y = \"120\">Food</text>\n" +
+                    "            <text fill = \"darkblue\" class = \"corner\" x = \"0\" y = \"240\">Ambiance</text>\n" +
+                    "            <text fill = \"darkblue\" class = \"corner\" x = \"210\" y = \"240\">Service</text>\n" +
+                    "            <text fill = \"darkblue\" class = \"corner\" x = \"245\" y = \"120\">Cost Performance</text>\n" +
+                    "            <path class = \"dash\" d = \"M100 100 L100 0\" stroke = \"darkblue\" stroke-width = \"2\" stroke-dasharray = \"5,5\" transform = \"translate(40,50)\"></path>\n" +
+                    "            <path class = \"dash\" d = \"M100 100 L4.89 69.1\" stroke = \"darkblue\" stroke-width = \"2\" stroke-dasharray = \"5,5\" transform = \"translate(40,50)\"></path>\n" +
+                    "            <path class = \"dash\" d = \"M100 100 L41.22 180.9\" stroke = \"darkblue\" stroke-width = \"2\" stroke-dasharray = \"5,5\" transform = \"translate(40,50)\"></path>\n" +
+                    "            <path class = \"dash\" d = \"M100 100 L158.78 180.9\" stroke = \"darkblue\" stroke-width = \"2\" stroke-dasharray = \"5,5\" transform = \"translate(40,50)\"></path>\n" +
+                    "            <path class = \"dash\" d = \"M100 100 L195.11 69.1\" stroke = \"darkblue\" stroke-width = \"2\" stroke-dasharray = \"5,5\" transform = \"translate(40,50)\"></path>\n");
+
+            out.print("<polygon points = \"" + R.FivePoints() + "\" style = \"fill:firebrick; stroke:none;\" fill-opacity = \"0.7\"; transform = \"translate(40,50)\"></polygon>\n");
+
+            out.print(R.SVGText());
+
+            out.print("</svg>");
+
+            //out.print("</td></tr><td><tr>" + R.FivePoints());
+
             out.println("</td></tr></table></p>");
         }
 
